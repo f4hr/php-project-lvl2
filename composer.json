@@ -1,0 +1,27 @@
+{
+    "name": "f4hr/gendiff",
+    "bin": [
+        "bin/gendiff"
+    ],
+    "description": "Hexlet project",
+    "authors": [
+        {
+            "name": "Ilya Fakhrutdinov",
+            "email": "bekamez@gmail.com"
+        }
+    ],
+    "scripts": {
+        "lint": "phpcs"
+    },
+    "autoload": {
+        "files": [
+            "src/Opt.php"
+        ]
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.5"
+    },
+    "require": {
+        "docopt/docopt": "^1.0"
+    }
+}
